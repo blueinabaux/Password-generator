@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Cornerstone';
+    src: url('./fonts/Cornerstone.ttf') format('truetype');
+}
+
+body{
+    font-family: 'Cornerstone';
+    height: 100%;
+    width: 100%;
+    background-color: #171717;
+}
